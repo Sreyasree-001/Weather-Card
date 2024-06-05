@@ -1,11 +1,13 @@
 "use client"
 import { useState } from "react";
 import { IoIosSearch } from "react-icons/io";
-
-const SerachBar = ({setNewCity}) => {
+type Props = {
+  setNewCity: Function
+};
+const SerachBar = ({setNewCity} : Props) => {
   const [currentCity, setCurrentCity] = useState("")
   const handleCity = () => {
-    console.log(currentCity);
+    //console.log(currentCity);
     setNewCity(currentCity);
     setCurrentCity("");
   }

@@ -1,7 +1,7 @@
 "use client"
 import { FaWind } from "react-icons/fa";
 
-const WindSpeed = ({setSpeed}) => {
+const WindSpeed = ({setSpeed} : {setSpeed : string}) => {
   return (
     <>
     <div className="flex flex-row justify-center items-center space-x-2">

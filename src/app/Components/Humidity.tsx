@@ -1,7 +1,7 @@
 "use client"
 import { LuWaves } from "react-icons/lu";
 
-const Humidity = ({setHumid}) => {
+const Humidity = ({setHumid} : {setHumid : string} ) => {
   return (
     <>
     <div className="flex flex-row justify-center items-center space-x-2">
