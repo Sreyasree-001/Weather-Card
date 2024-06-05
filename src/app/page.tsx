@@ -1,6 +1,7 @@
 "use client";
 
 import Card from "./Components/Card";
+import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 
 export default function Home() {
@@ -13,6 +14,9 @@ export default function Home() {
         </div>
       <div className="self-center mt-10">
         <Card/>
+      </div>
+      <div className="mt-8">
+        <Footer/>
       </div>
       </div>
     </>
